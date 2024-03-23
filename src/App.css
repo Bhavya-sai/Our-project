@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.login-Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://images.spiceworks.com/wp-content/uploads/2022/05/23103504/Concept-of-artificial-intelligence-face-combined-with-electronic-circuit.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.register-form
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://image.cnbcfm.com/api/v1/image/106341604-1579261030301thumbnailreports_deepfakevideo_clean_03.jpg?v=1579261049) no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 30px 40px;
+  margin-right: 300px;
+}
+
+.container h1 {
+  font-size: 36px;
+  text-align: center;
+
+}
+
+.container .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-size: 16px;
+  color:white;
+  padding: 20px 45px 20px 20px;
+
+
+}
+
+.input-box input::placeholder {
+  color: white;
+
+}
+
+.input-box .icon {
+  position:absolute;
+  left: 300px;
+  top: 25px;
+  transform: translateY(-50%);
+  font-size: 20px;
+
+}
+
+.container .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 15px 0px 15px;
+}
+
+.remember-forgot label input {
+  accent-color: black;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color:white;
+  text-decoration: none;
+
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.container .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(15, 15, 15);
+  font-weight: 600;
+
+}
+
+.container .register-link {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0px 15px;
+
+}
+
+.register-link p a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a :hover {
+  text-decoration: underline;
+}
+
+.background-image {
+  background-image: url(https://venturebeat.com/wp-content/uploads/2019/08/deepfake-e1576010828444.jpg?w=1200&strip=all);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar
+{
+    width:100%;
+    height:100px;
+    background-color: rgb(141, 177, 197);
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding: 5px;
+    margin-top: -600px;
+
+}
+
+.navbar .leftside
+{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.navbar .leftside h1
+{
+    width: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .rightside
+{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navbar .rightside button
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(244, 238, 238);
+    cursor: pointer;
+}
+
